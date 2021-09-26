@@ -40,3 +40,16 @@ $font-color: #333;
     }  
   }
 
+  body {
+    font-size: 16px;
+    color: $font-color;
+    font-family: "ヒラギノ明朝 ProN", serif;
+    line-height: 1.6875;
+  }
+
+  img {
+    width: 100%;
+  }
+  
+   /* header
+  =============================================================*/

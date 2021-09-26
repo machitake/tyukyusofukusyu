@@ -249,6 +249,77 @@
 
         <section class="contact">
 
+            <h2 class="util-title">Contact</h2>
+
+
+            <form action="" class="contact-form" method="POST">
+                <p class="contact-text"><span class="contact-text-inline">＊</span>は入力必須項目です</p>
+
+                <dl class="contact-list">
+                    <div class="contact-item">
+                        <dt class="contact-item-title">
+                            お名前<span class="contact-item-inline">＊</span>
+                        </dt>
+
+                        <dd class="contact-item-input">
+                            <input type="text" name=""  required>
+                        </dd>
+                    </div>
+                    <div class="contact-item">
+                        <dt class="contact-item-title">
+                            メールアドレス<span class="contact-item-inline">＊</span>
+                        </dt>
+
+                        <dd class="contact-item-input">
+                            <input type="email" name="" required>
+                        </dd>
+                    </div>
+                    <div class="contact-item">
+                        <dt class="contact-item-title">
+                            法人/個人の選択<span class="contact-item-inline">＊</span>
+                        </dt>
+
+                        <dd class="contact-item-input">
+                            <div class="contact-radio-wrap">
+                                <label class="contact-radio">
+                                    <input type="radio" name="" required>
+                                    <span class="contact-radio-part">法人</span>
+                                </label>
+                                <label class="contact-radio">
+                                    <input type="radio" name="" required>
+                                    <span class="contact-radio-part">個人</span>
+                                </label>
+                            </div>
+                        </dd>
+                    </div>
+
+                    <div class="contact-item">
+                        <dt class="contact-item-title">
+                            お問い合わせ内容<span class="contact-item-inline">＊</span>
+                        </dt>
+
+                        <dd class="contact-item-input">
+                            <textarea name="" required></textarea>
+                        </dd>
+                    </div>
+                </dl>
+
+                <div class="contact-footer">
+                    <p class="contact-footer-text">
+                        <label class="contact-privacy">
+                            <input type="checkbox" name="" required>
+                            <span class="contact-privacy-part"></span>
+                        </label>
+                        <a href="" class="contact-privacy-link" target="_blank">プライバシーポリシー</a>に同意します。
+                    </p>
+                </div>
+
+                <div class="contact-footer-submit">
+                    <button class="util-link -submit" type="submit">送信</button>
+                </div>
+            </form>
+            
+
         </section>
         <!-- /.contact -->
 
@@ -256,7 +327,25 @@
     <!-- /.main -->
 
     <footer class="footer">
+        <div class="footer-logo"><img src="/img/logo.png" alt="sobolon"></div>
+        <ul class="footer-nav-list">
+            <li class="footer-nav-item"><a href="" class="footer-nav-item-link">プライバシーポリシー</a></li>
+            <li class="footer-nav-item"><a href="" class="footer-nav-item-link">特定商取引法に基づく表記</a></li>
+        </ul>
 
+        <ul class="footer-sns-link">
+            <li class="footer-sns-item">
+                <a href="" class="footer-sns-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="footer-sns-item">
+                <a href="" class="footer-sns-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li class="footer-sns-item">
+                <a href="" class="footer-sns-link" aria-label="line"><i class="fab fa-line"></i></a>
+            </li>
+        </ul>
+
+        <p class="footer-copyright"><small lang="en">© 2020 sobolon All rights reserved</small></p>
     </footer>
     <!-- /.footer -->
     
