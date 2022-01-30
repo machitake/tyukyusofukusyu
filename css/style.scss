@@ -1033,3 +1033,27 @@ footer {
     color: #f00;
   }
 }
+
+//totop
+#js-pagetop {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  background: #f99900;
+  color: #fff;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+ 
+#js-pagetop span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
